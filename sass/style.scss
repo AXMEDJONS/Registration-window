@@ -17,6 +17,31 @@
     background-size: cover;
 }
 
+.login__img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.login__button {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba(3, 3, 3, .8);
+    overflow: hidden;
+    opacity: 0.4;
+    box-shadow: 10px 10px 30px #000;
+}
+
 .container {
     max-width: 500px;
     height: 530px;
@@ -141,9 +166,37 @@ input::-webkit-input-placeholder {
     color: #fff;
 }
 
+.close__button {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 
+    span {
+        width: 20px;
+        height: 2px;
+        background-color: #ddd;
+    }
+}
 
+.left__span {
+    transform: rotate(-45deg);
+}
 
+.right__span {
+    transform: rotate(45deg);
+    margin-top: -2px;
+}
+
+.container__not__active {
+    display: none;
+}
 
 
 

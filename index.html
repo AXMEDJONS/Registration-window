@@ -12,21 +12,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
+
+
 <body>
     <div class="wrap__background">
-        <form action="">
-            <div class="container">
+        <div class="login__button">
+            <img class="login__img"
+                src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
+            </img>
+        </div>
+        <form class="form__registration" name="form__registration" action="">
+            <div class="container container__not__active">
                 <h1>Sign Up</h1>
-                <input class="name" type="text" placeholder="Name" autocomplete="off" minlength="2" maxlength="15" required>
-                <input class="name" type="text" placeholder="Surname" autocomplete="off" minlength="2" maxlength="15" required>
-                <input class="name" type="text" placeholder="City" autocomplete="off" minlength="2" maxlength="15" required>
-                <input class="name" type="email" placeholder="E-mail" autocomplete="off"
-                minlength="10" maxlength="30" required>
-                <input type="password" placeholder="Create a password" autocomplete="off" minlength="8" maxlength="24" required>
-                <input class="name" type="password" placeholder="Confirm the password" autocomplete="off" minlength="8" maxlength="24" required>
+                <div class="close__button">
+                    <span class="left__span"></span>
+                    <span class="right__span"></span>
+                </div>
+                <input name="name" type="text" placeholder="Name" autocomplete="off" minlength="2" maxlength="15"
+                    required>
+                <input name="surname" type="text" placeholder="Surname" autocomplete="off" minlength="2" maxlength="15"
+                    required>
+                <input name="city" type="text" placeholder="City" autocomplete="off" minlength="2" maxlength="15"
+                    required>
+                <input name="email" type="email" placeholder="E-mail" autocomplete="off" minlength="10" maxlength="30"
+                    required>
+                <input name="create__password" type="password" placeholder="Create a password" autocomplete="off"
+                    minlength="8" maxlength="24" required>
+                <input name="confirm__password" type="password" placeholder="Confirm the password" autocomplete="off"
+                    minlength="8" maxlength="24" required>
                 <div class="remember__forgot__wrap">
                     <div class="remember__wrap">
-                        <input class="checkbox" type="checkbox" id="checkbox">
+                        <input class="checkbox" name="checkbox" type="checkbox" id="checkbox">
                         <label for="checkbox">Remember me</label>
                     </div>
                     <span>Forgotten password</span>
@@ -35,58 +51,7 @@
             </div>
         </form>
     </div>
-
-
-
-
-
-
-
-
-    <!-- <div class="container"> -->
-    <!-- <form name="form_reg" action="">
-            <input type="text" name="txt" id="tusk">
-            <input type="radio" checked name="rad" id="radio">
-            <input type="password" name="pass">
-            <button class="btn" type="submit">Отправить</button>
-        </form>
-        <div class="content"> -->
-
-    <!-- </div> -->
-    <!-- <div class="wrap__okno">
-        <div class="samo__okno">
-            <form class="form_reg">
-                <button class="button__cross"><img src="./img/cross_img.png"></button>
-                <span>Оставить заявку</span>
-                <input class="input__top" type="text" placeholder="Имя" title="введите сюда e-mail адресс" required
-                    minlength="8" maxlength="24" max="25">
-                <input class="input__bottom" type="text" placeholder="Фамилия"
-                    title="введите сюда что вы хотите приобрести" required minlength="3" maxlength="10" max="15">
-                    <input type="radio">Мужской
-                    <input type="radio">Женский
-                <button class="button__submit" type="submit" title="нажмите чтобы отправить">Отправить</button>
-            </form>
-        </div>
-    </div> -->
-    <!-- </div> -->
-
-
-
-
-
-
-
-
-
 </body>
-
-
-
-
-
-
-
-
 
 
 
